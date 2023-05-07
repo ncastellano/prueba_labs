@@ -1,3 +1,3 @@
-saludos = "Hola Mariana otra vez!"
+saludos = "Hola Mariana Castellano y Gabriel Castellano"
 
 print(saludos)
