@@ -1,4 +1,4 @@
-saludos = "Nelson Castellano y Carlina Martinez test 1508 workflow"
+saludos = "Nelson Castellano y Carlina Martinez test 1508 workflow test2"
 
 print(saludos)
 
