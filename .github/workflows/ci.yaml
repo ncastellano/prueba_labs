@@ -1,0 +1,15 @@
+name: Hola Actions
+
+on:
+  workflow_dispatch: # para ejecutarlo manualmente
+  push:              # también corre en cada push
+jobs:
+  hola:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Di hola
+        run: |
+          echo "¡Hola desde GitHub Actions!"
+          echo "Commit: $GITHUB_SHA"
+
